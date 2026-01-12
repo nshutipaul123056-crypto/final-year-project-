@@ -1,46 +1,70 @@
-# function-bind <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# Getting Started with Create React App
 
-[![github actions][actions-image]][actions-url]
-<!--[![coverage][codecov-image]][codecov-url]-->
-[![dependency status][deps-svg]][deps-url]
-[![dev dependency status][dev-deps-svg]][dev-deps-url]
-[![License][license-image]][license-url]
-[![Downloads][downloads-image]][downloads-url]
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![npm badge][npm-badge-png]][package-url]
+## Available Scripts
 
-Implementation of function.prototype.bind
+In the project directory, you can run:
 
-Old versions of phantomjs, Internet Explorer < 9, and node < 0.6 don't support `Function.prototype.bind`.
+### `npm start`
 
-## Example
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```js
-Function.prototype.bind = require("function-bind")
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Installation
+### `npm test`
 
-`npm install function-bind`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Contributors
+### `npm run build`
 
- - Raynos
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## MIT Licenced
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-[package-url]: https://npmjs.org/package/function-bind
-[npm-version-svg]: https://versionbadg.es/Raynos/function-bind.svg
-[deps-svg]: https://david-dm.org/Raynos/function-bind.svg
-[deps-url]: https://david-dm.org/Raynos/function-bind
-[dev-deps-svg]: https://david-dm.org/Raynos/function-bind/dev-status.svg
-[dev-deps-url]: https://david-dm.org/Raynos/function-bind#info=devDependencies
-[npm-badge-png]: https://nodei.co/npm/function-bind.png?downloads=true&stars=true
-[license-image]: https://img.shields.io/npm/l/function-bind.svg
-[license-url]: LICENSE
-[downloads-image]: https://img.shields.io/npm/dm/function-bind.svg
-[downloads-url]: https://npm-stat.com/charts.html?package=function-bind
-[codecov-image]: https://codecov.io/gh/Raynos/function-bind/branch/main/graphs/badge.svg
-[codecov-url]: https://app.codecov.io/gh/Raynos/function-bind/
-[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/Raynos/function-bind
-[actions-url]: https://github.com/Raynos/function-bind/actions
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
